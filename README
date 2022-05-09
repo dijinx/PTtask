@@ -10,3 +10,5 @@
 3.
 Копировать драйвера для UI теста из resources/chromedriver.exe в C:\chromedriver.exe
 Копировать драйвера для UI теста из resources/geckodriver.exe в C:\geckodriver.exe
+
+в контейнере не запускаются
