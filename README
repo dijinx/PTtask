@@ -20,7 +20,7 @@
 
 5. Запустить
 
-	docker run --rm --mount type=bind,src=C:\Users\dimaj\PycharmProjects\pythonProject\PTtask,target=/PTask/ pytest_runner
+	docker run --rm --mount type=bind,src=%root_directory%,target=/PTask/ pytest_runner
 
 6. Запустить
 
