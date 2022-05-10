@@ -22,6 +22,8 @@
 
 	docker run --rm --mount type=bind,src=%root_directory%,target=/PTask/ pytest_runner
 
+	%root_directory% - здесь указать директорию расположения проекта
+
 6. Запустить
 
     docker-compose up --build
