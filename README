@@ -13,3 +13,15 @@
     Копировать драйвера для UI теста из resources/geckodriver.exe в C:\geckodriver.exe
 
     в контейнере не запускаются
+
+4. Запустить
+
+	docker build -t pytest_runner .
+
+5. Запустить
+
+	docker run --rm --mount type=bind,src=C:\Users\dimaj\PycharmProjects\pythonProject\PTtask,target=/PTask/ pytest_runner
+
+6. Запустить
+
+    docker-compose up --build
