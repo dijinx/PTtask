@@ -7,8 +7,9 @@
     $ генерация отчёта  pytest --alluredir=allure_result_folder ./tests
     $ просмотр отчёта  allure serve allure_result_folder
 
-3.
-Копировать драйвера для UI теста из resources/chromedriver.exe в C:\chromedriver.exe
-Копировать драйвера для UI теста из resources/geckodriver.exe в C:\geckodriver.exe
+3. Для запуска тестов UI
 
-в контейнере не запускаются
+    Копировать драйвера для UI теста из resources/chromedriver.exe в C:\chromedriver.exe
+    Копировать драйвера для UI теста из resources/geckodriver.exe в C:\geckodriver.exe
+
+    в контейнере не запускаются
