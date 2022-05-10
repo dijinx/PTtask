@@ -49,7 +49,7 @@ class TestAPI:
         print('Тело ответа совпадает с образцом')
 
     @allure.suite('Тест-кейс четвёртой категории')
-    @allure.feature('Проверка значений полей city и postal_code')
+    @allure.feature('Проверка значения поля city в первом json полученного ответа')
     @allure.description('Параметризированный тест')
     @pytest.mark.parametrize('cityes_names', cityes_names)
     def test_response_body_city_name(self, cityes_names):
