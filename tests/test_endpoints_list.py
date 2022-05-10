@@ -2,8 +2,8 @@ import allure
 import pytest
 import requests
 
-from resources import variables_for_tests
-from resources.variables_for_tests import cityes_names
+from resources_for_tests import variables_for_tests
+from resources_for_tests.variables_for_tests import cityes_names
 
 
 # Имена сьютов условные, как и имена фич
